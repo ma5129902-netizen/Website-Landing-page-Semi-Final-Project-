@@ -185,6 +185,7 @@ body{
     font-weight: 600;
     color: #345F71;
     cursor: pointer;
+    text-decoration: none;
 }
 .btn-social img{
     width: 18px;
