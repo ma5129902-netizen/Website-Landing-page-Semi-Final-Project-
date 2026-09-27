@@ -1,0 +1,363 @@
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+    .header-container{
+        padding: 24px 20px;
+    }
+    .search-bar{
+    max-width: 1080px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: -33px;
+    background-color: #FFFFFC;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px;
+    gap: 16px;
+    }
+    .routes-grid{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .route-card{
+        width: calc((100% - 20.5px) / 2);
+    }
+    .destinations-grid{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .destination-card{
+        width: calc((100% - 20.5px) / 2);
+    }
+    .cta-section{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .cta-banner{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .cta-image{
+        margin-left: -40px;
+    }
+    .testimonials-grid{
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-wrap: wrap;
+    }
+    .testimonial-card{
+        width: calc((100% - 20px) / 2);
+    }
+    .footer-inner{
+        padding: 60px 40px 40px;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    .footer-brand{
+        flex: 1 1 100%;
+    }
+    .footer-col{
+        flex: 1 1 calc(33.333% - 27px);
+    }
+    .footer-bottom-inner{
+        padding: 20px 40px;
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    nav{
+        display: none;
+    }
+    svg{
+        display: block;
+    }
+    .hero-stats{
+        display: none;
+    }
+    .search-bar{
+        display: none;
+    }
+    .hero-content{
+     max-width: 560px;
+     padding-top: 80px;
+     padding-left: 60px;
+    }
+    .routes-grid{
+        padding: 0 20px;
+        gap: 16px;
+    }
+    .route-card{
+        width: 100%;
+    }
+
+    .features-grid{
+        padding: 0 20px;
+        gap: 16px;
+    }
+    .feature-card{
+        width: 100%;
+    }
+    .destinations-section{
+        padding: 56px 0 60px;
+    }
+    .destinations-grid{
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 16px;
+    }
+    .destination-card{
+        width: calc((100% - 16px) / 2);
+        height: 220px;
+    }
+     .cta-section{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+    .cta-banner{
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .cta-image{
+        flex: none;
+        width: 100%;
+        height: 220px;
+        margin-left: 0;
+        border-radius: 24px 24px 0 0;
+    }
+    .cta-content{
+        padding: 30px 24px;
+        align-items: center;
+        text-align: center;
+    }
+    .cta-content h2{
+        font-size: 24px;
+    }
+    .cta-content p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials-section{
+        padding: 56px 0 60px;
+    }
+    .testimonials-grid{
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 16px;
+    }
+    .testimonial-card{
+        width: calc((100% - 16px) / 2);
+    }
+    .testimonial-card p{
+        font-size: 12px;
+    }
+    footer-inner{
+        padding: 50px 20px 30px;
+        gap: 30px;
+    }
+    .footer-col{
+        flex: 1 1 calc(50% - 15px);
+    }
+    .footer-bottom-inner{
+        padding: 18px 20px;
+    }
+
+}
+
+
+@media (max-width: 576px) {
+    .header-container{
+        padding: 24px 5px;
+    }
+    .signin,
+    .book-now{
+        font-size: 10;
+        white-space: nowrap;
+        padding: 6px 12px;
+    }
+    .header-actions{
+        gap: 5px;
+
+    }
+    .hero-content{
+     max-width: 560px;
+     padding-top: 80px;
+     padding-left: 40px;
+    }
+    .routes-grid{
+        padding: 0 16px;
+    }
+    .features-grid{
+        padding: 0 16px;
+    }
+    .route-row{
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+    .destinations-grid{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .destination-card{
+        width: 100%;
+        height: 220px;
+    }
+    .cta-section{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .cta-image{
+        height: 180px;
+    }
+    .cta-content h2{
+        font-size: 20px;
+    }
+    .cta-content p{
+        font-size: 13px;
+    }
+    .testimonials-grid{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .testimonial-card{
+        width: 100%;
+    }
+    .author-meta{
+        text-align: left;
+        margin-left: 0;
+    }
+    .testimonial-author{
+        gap: 8px;
+    }
+    .footer-inner{
+        padding: 40px 16px 24px;
+        gap: 28px;
+    }
+    .footer-col{
+        flex: 1 1 100%;
+    }
+    .footer-bottom-inner{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 16px;
+    }
+    .footer-bottom-links{
+        gap: 16px;
+    }
+    .subscribe-form{
+        flex-direction: column;
+    }
+    .btn-subscribe{
+        width: 100%;
+        padding: 12px;
+    }
+}
+@media (max-width: 380px) {
+    .header-container{
+        padding: 10px 0px;
+    }
+    .signin,
+    .book-now{
+        font-size: 5;
+        font-weight: 200;
+        white-space: nowrap;
+        padding: 2px 6px;
+    }
+    .header-actions{
+        gap: 2px;
+
+    }
+    svg{
+        padding-left: 8px;
+    }
+    .hero-content{
+     max-width: 560px;
+     padding-top: 80px;
+     padding-left: 20px;
+
+    }
+    .hero-content h1{
+        font-size: 40px;
+    }
+    .hero-content p{
+        font-size: 8px;
+    }
+    .hero-buttons{
+        gap: 16px;
+    }
+    .btn-explore,
+    .btn-booking{
+        padding: 14px 18px;
+    }
+    .routes-grid{
+    display: flex;
+    flex-direction: column;
+   }
+   .destinations-grid{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .destination-content h3{
+        font-size: 15px;
+    }
+    .destination-content p{
+        font-size: 11px;
+    }
+    cta-content{
+        padding: 24px 16px;
+    }
+    .btn-cta{
+        width: 100%;
+    }
+    .testimonials-grid{
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .testimonial-card{
+        padding: 18px 16px;
+    }
+    .section-head h2,span {
+        font-size: 25px;
+    }
+    .footer-inner{
+        padding: 32px 14px 20px;
+    }
+    .footer-logo-text{
+        font-size: 16px;
+    }
+    .footer-bottom-links{
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+@media (max-width: 320px) {
+    .header-container{
+        padding: 6px 1px;
+    }
+    .signin,
+    .book-now{
+        font-size: 5;
+        font-weight: 100;
+        white-space: nowrap;
+        padding: 2px 4px;
+        line-height: 15px;
+    }
+    svg{
+        padding-left: 4px;
+    }
+    .routes-grid{
+    display: flex;
+    flex-direction: column;
+   }
+
+}
